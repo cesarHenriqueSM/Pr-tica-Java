@@ -61,7 +61,7 @@
         
         saldo = input.nextFloat();
         
-        float reajuste = saldo + (saldo/100)*1;
+        float reajuste = saldo + (saldo/100);
         
         System.out.printf("\r\nSeu saldo reajustado em 1% é de R$%.2f.", reajuste);
         
